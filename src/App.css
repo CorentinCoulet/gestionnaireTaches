@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+select option:nth-child(2), .pas-urgent {
+  background-color: green;
+}
+
+select option:nth-child(3), .urgent {
+  background-color: red;
+}
